@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  link: MyString
+  title: MyString
+  description: MyText
+  topic: MyString
+  ruby: false
+  rails: false
+  added_at: 2013-07-11 22:46:50
+
+two:
+  link: MyString
+  title: MyString
+  description: MyText
+  topic: MyString
+  ruby: false
+  rails: false
+  added_at: 2013-07-11 22:46:50

@@ -1,0 +1,40 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Link:</b>
+  <%= @link.link %>
+</p>
+
+<p>
+  <b>Title:</b>
+  <%= @link.title %>
+</p>
+
+<p>
+  <b>Description:</b>
+  <%= @link.description %>
+</p>
+
+<p>
+  <b>Topic:</b>
+  <%= @link.topic %>
+</p>
+
+<p>
+  <b>Ruby:</b>
+  <%= @link.ruby %>
+</p>
+
+<p>
+  <b>Rails:</b>
+  <%= @link.rails %>
+</p>
+
+<p>
+  <b>Added at:</b>
+  <%= @link.added_at %>
+</p>
+
+
+<%= link_to 'Edit', edit_link_path(@link) %> |
+<%= link_to 'Back', links_path %>
